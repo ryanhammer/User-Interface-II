@@ -1,1 +1,143 @@
-/* Add CSS styling here */
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+/* Add page font and section color */
+
+* {
+  font-family: 'Yusei Magic';
+}
+
+section {
+  color:#20285B;
+}
+
+/* Add background for header and footer */
+
+.bookend {
+  background-color: #20285B;
+}
+
+/* style buttons */
+
+button {
+  color: white;
+  background-color: #FA661C;
+  font-size: 1rem;
+  border: 0;
+  margin: 2%;
+  padding: 1% 0%;
+  width: 12.5%;
+  letter-spacing: 0.3rem;
+}
+
+#my-projects {
+  color:#20285B;
+  margin: 2% 0%;
+}
+
+#big-contact {
+  padding: 1.5% 0%;
+  width: 15%;
+  margin: 1% 42.5%;
+}
+
+/* Style headings */
+
+h1 {
+  color: white;
+  font-size: 3.25rem;
+  padding: 1.5%;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-top: 5%;
+  padding-left: 2%;
+}
+
+/* Style bio section */
+
+#avi {
+  float: left;
+  margin-right: 6%;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+#bio-text {
+  width: 85%;
+  padding-bottom: 7.5%;
+}
+
+/* Use flex box on project pictures */
+
+#images-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 2% 0%;
+}
+
+#images-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 2%;
+}
+
+figure {
+  margin: 1% 0%;
+  text-align: center;
+}
+
+.project-image {
+  width: 268px;
+  height: auto;
+}
+
+/* Style footer */
+
+#footer-text {
+  color: white;
+  text-align: center;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+}
+
+#footer-flex {
+  margin: 0% 42.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+footer {
+  padding: 2% 0%;
+}
