@@ -48,6 +48,7 @@ button {
   padding: 1% 0%;
   width: 12.5%;
   letter-spacing: 0.3rem;
+  border-radius: 0.75em;
 }
 
 #my-projects {
@@ -80,6 +81,7 @@ h2 {
 #avi {
   float: left;
   margin-right: 6%;
+  padding-left: 2%;
 }
 
 p {
