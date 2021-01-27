@@ -12,21 +12,24 @@
     <header class="bookend">
         <h1>Ryan Hammer</h1>
         <nav>
-            <button onclick="location.href='index.html';";>Home</button>
-            <button onclick="location.href='about.html';">About</button>
-            <button onclick="location.href='contact.html';">Contact</button>
-            <button onclick="location.href='projects.html';">Projects</button>
+            <button onclick="location.href='index.html';" class="nav-button">Home</button>
+            <button onclick="location.href='about.html';" class="nav-button">About</button>
+            <button onclick="location.href='contact.html';" class="nav-button">Contact</button>
+            <button onclick="location.href='projects.html';" class="nav-button">Projects</button>
         </nav>
     </header>
 
-    <section id="bio">
-        <img id="avi" src="assets\bitmoji.png" alt="Me in Bitmoji form">
-        <h2>Ryan Hammer</h2>
-        <button id="my-projects" onclick="location.href='projects.html';">My Projects</button>
-        <p id="bio-text">Hello! Welcome to my portfolio site! I am a part time web development student traversing my first unit at Lambda School. After several years of using my summers off to dabble in various code languages, I am hoping to my a full career change and become a Full Stack Developer sometime in the next 12 months. Below are some of the projects I've been working on.</p>
+    <section class="bio">
+        <img class="avi" src="assets\bitmoji.png" alt="Me in Bitmoji form">
+        <div class="bio-div">
+            <h2>Ryan Hammer</h2>
+            <button class="nav-button" onclick="location.href='projects.html';">My Projects</button>
+            <p class="bio-text">Hello! Welcome to my portfolio site! I am a part time web development student traversing my first unit at Lambda School. After several years of using my summers off to dabble in various code languages, I am hoping to my a full career change and become a Full Stack Developer sometime in the next 12 months. Below are some of the projects I've been working on.</p>
+        </div>       
+
     </section>
 
-    <section id="images-1">
+    <section class="images-box">
         <figure>
             <img class="project-image" src="assets\project1.jpg">
             <figcaption>Autumn Leaf Compost</figcaption>
@@ -45,7 +48,7 @@
         </figure> 
     </section>
     
-    <section id="images-2">
+    <section class="images-box">
         <figure>
             <img class="project-image" src="assets\project5.jpg">
             <figcaption>Sustainable Sunflowers</figcaption>
@@ -66,7 +69,7 @@
   
     <footer class="bookend">
         <p id="footer-text">Like what you see?</p>
-        <button id="big-contact" onclick="location.href='contact.html';">Contact Me</button>
+        <button class="nav-button" onclick="location.href='contact.html';">Contact Me</button>
         <div id="footer-flex">
             <a href="https://twitter.com">
                 <img class="icon" src="assets\twittericon.jpg" alt="FMOT">

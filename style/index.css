@@ -13,133 +13,135 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,  
 menu, nav, output, ruby, section, summary,  
 time, mark, audio, video {  
-margin: 0;  
-padding: 0;  
-border: 0;  
-font-size: 100%;  
-font: inherit;  
-vertical-align: baseline;  
+    margin: 0;  
+    padding: 0;  
+    border: 0;  
+    font-size: 100%;  
+    font: inherit;  
+    vertical-align: baseline;  
 }
 
-/* Add page font and section color */
+/* Add page font family, size, and color for sections */
+
+html {
+    font-size: 62.5%;
+}
 
 * {
-  font-family: 'Yusei Magic';
-}
-
-section {
-  color:#20285B;
+    font-family: 'Yusei Magic';
+    color: #20285B;
 }
 
 /* Add background for header and footer */
 
 .bookend {
-  background-color: #20285B;
+    background-color: #20285B;
 }
 
-/* style buttons */
-
-button {
-  color: white;
-  background-color: #FA661C;
-  font-size: 1rem;
-  border: 0;
-  margin: 2%;
-  padding: 1% 0%;
-  width: 12.5%;
-  letter-spacing: 0.3rem;
-  border-radius: 0.75em;
-}
-
-#my-projects {
-  color:#20285B;
-  margin: 2% 0%;
-}
-
-#big-contact {
-  padding: 1.5% 0%;
-  width: 15%;
-  margin: 1% 42.5%;
-}
-
-/* Style headings */
+/* Style header */
 
 h1 {
-  color: white;
-  font-size: 3.25rem;
-  padding: 1.5%;
+    color: white;
+    font-size: 4rem;
+    padding: 1.5%;
 }
 
-h2 {
-  font-size: 2rem;
-  padding-top: 5%;
-  padding-left: 2%;
+.nav-button {
+    color: white;
+    background-color: #FA661C;
+    font-size: 1.6rem;
+    border: 0;
+    margin: 2%;
+    padding: 1% 0%;
+    width: 12.5%;
+    letter-spacing: 0.3rem;
+    border-radius: 0.75em;
 }
 
 /* Style bio section */
 
-#avi {
-  float: left;
-  margin-right: 6%;
-  padding-left: 2%;
+.bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.avi {
+    padding-left: 2%;
+}
+
+.bio-div {
+    width: 50%;
+    margin-top: 5%;
+}
+
+h2 {
+    font-size: 2.75rem;
+    padding-top: 5%;
+}
+
+.bio-div .nav-button {
+    color:#20285B;
+    padding: 2% 0;
+    margin: 2% 0%;
+    width: 25%;
 }
 
 p {
-  font-size: 1.25rem;
-}
-
-#bio-text {
-  width: 85%;
-  padding-bottom: 7.5%;
+    font-size: 2rem;
 }
 
 /* Use flex box on project pictures */
 
-#images-1 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: 2% 0%;
-}
-
-#images-2 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-bottom: 2%;
+.images-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2% 0%;
 }
 
 figure {
-  margin: 1% 0%;
-  text-align: center;
+    margin: 1% 0%;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 1.75rem;
+    margin-top: 1.5%;
 }
 
 .project-image {
-  width: 268px;
-  height: auto;
+    width: 268px;
+    height: auto;
 }
 
 /* Style footer */
 
-#footer-text {
-  color: white;
-  text-align: center;
+footer {
+    margin-top: 4%;
+    padding: 2% 0%;
 }
 
-.icon {
-  width: 35px;
-  height: 35px;
+#footer-text {
+    color: white;
+    text-align: center;
+}
+
+footer .nav-button {
+    padding: 1.5% 0%;
+    width: 15%;
+    margin: 1% 42.5%;
 }
 
 #footer-flex {
-  margin: 0% 42.5%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+    margin: 0% 42.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-footer {
-  padding: 2% 0%;
+.icon {
+    width: 35px;
+    height: 35px;
 }
