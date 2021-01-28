@@ -169,9 +169,8 @@ footer .nav-button {
     .bio-div {
         margin-top: 7.5%;
     }
+
     .bio-div .nav-button {        
-        padding: 2% 0;
-        margin: 2% 0%;
         width: 12rem;
         letter-spacing: normal;
     }
@@ -191,5 +190,51 @@ footer .nav-button {
     .icon {
         margin: 5px;
     }
+
+}
+
+@media (max-width: 500px){
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;        
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        margin-bottom: 2%;
+    }
+
+    header .nav-button {
+        width: 12rem;
+        margin: 1% 0s;
+        border-radius: 0.75rem;
+        padding: 3%;
+        letter-spacing: 0.3rem;
+    }
+
+    .bio {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0 5%;
+    }
+
+    .bio-div {
+        margin: 0;
+        margin-top: 2.5%;
+        text-align: center;
+    }
+
+    .bio-text {
+        width: 268px;
+    }
+
 
 }
