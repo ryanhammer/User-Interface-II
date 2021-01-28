@@ -3,9 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ryan Hammer Portfolio Site</title>
+    <link href="https://fonts.googleapis.com/css?family=Yusei+Magic:regular" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="style\index.css">
 </head>
 <body>
     
+    <header class="bookend">
+        <h1>Ryan Hammer</h1>
+        <nav>
+            <button onclick="location.href='index.html';" class="nav-button">Home</button>
+            <button onclick="location.href='about.html';" class="nav-button">About</button>
+            <button onclick="location.href='contact.html';" class="nav-button">Contact</button>
+            <button onclick="location.href='projects.html';" class="nav-button">Projects</button>
+        </nav>
+    </header>
+
+    <section class="bio">
+        <img class="avi" src="assets\bitmoji.png" alt="Ryan in Bitmoji form">
+        <div class="bio-div">
+            <h2>Ryan Hammer</h2>
+            <button class="nav-button" onclick="location.href='projects.html';">My Projects</button>
+            <p class="bio-text">Hello! Welcome to my portfolio site! I am a part time web development student traversing my first unit at Lambda School. After several years of using my summers off to dabble in various code languages, I am hoping to my a full career change and become a Full Stack Developer sometime in the next 12 months. Below are some of the projects I've been working on.</p>
+        </div>       
+
+    </section>
+
+    <section class="images-box">
+        <figure>
+            <img class="project-image" src="assets\project1.jpg" alt="Close up of autumn colored leaves on the ground">
+            <figcaption>Autumn Leaf Compost</figcaption>
+        </figure> 
+        <figure>
+            <img class="project-image" src="assets\project2.jpg" alt="Spring wheat ready to be harvested">
+            <figcaption>Spring Breathes</figcaption>
+        </figure> 
+        <figure>
+            <img class="project-image" src="assets\project3.jpg" alt="Looking up at the support beams beneath a bridge">
+            <figcaption>Bridges to Somewhere</figcaption>
+        </figure>  
+        <figure>
+            <img class="project-image" src="assets\project4.jpg" alt="The back of a person's head staring up at the sky">
+            <figcaption>Meditations</figcaption>
+        </figure> 
+    </section>
+    
+    <section class="images-box">
+        <figure>
+            <img class="project-image" src="assets\project5.jpg" alt="Flowers in the foreground with a vast canyon in the background">
+            <figcaption>Sustainable Sunflowers</figcaption>
+        </figure> 
+        <figure>
+            <img class="project-image" src="assets\project6.jpg" alt="Handwritten notes, a coffee, a phone, and a freshly opened laptop">
+            <figcaption>Morning Pages</figcaption>
+        </figure> 
+        <figure>
+            <img class="project-image" src="assets\project7.jpg" alt="Calm water with the sunrise on the horizon">
+            <figcaption>Sunrise in Perth</figcaption>
+        </figure>  
+        <figure>
+            <img class="project-image" src="assets\project8.jpg" alt="Two men paddling in a canoe">
+            <figcaption>The Young Men and the Lake</figcaption>
+        </figure> 
+    </section>
+  
+    <footer class="bookend">
+        <p class="footer-text">Like what you see?</p>
+        <button class="nav-button" onclick="location.href='contact.html';">Contact Me</button>
+        <div class="footer-flex">
+            <a href="https://twitter.com">
+                <img class="icon" src="assets\twittericon.jpg" alt="Link to my Twitter">
+            </a>
+            <a href="https://linkedin.com">
+                <img class="icon" src="assets\linkedinicon.jpg" alt="Link to my LinkedIn">
+            </a>
+            <a href="https://github.com">
+                <img class="icon" src="assets\githubicon.jpg" alt="Check out my Github">
+            </a>
+        </div>
+    </footer>
+
 </body>
 </html>
